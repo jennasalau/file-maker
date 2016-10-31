@@ -34,7 +34,7 @@ class FileMaker {
 	 * Sets a header for the buffer
 	 * @param {string}	header		- The header
 	 */
-	setHeader = function(header) {
+	setHeader(header) {
 		this.header = header;
 	};
 
@@ -42,7 +42,7 @@ class FileMaker {
 	 * Sets the footer for the buffer
 	 * @param {string}	footer		- The footer
 	 */
-	setFooter = function(footer) {
+	setFooter(footer) {
 		this.footer = footer;
 	};
 
@@ -77,7 +77,7 @@ class FileMaker {
 	 * @param {string}		heading 		- The section heading
 	 * @param {number}		[indent=0]		- Indents for the heading. Defaults to 0.
 	 */
-	writeNewSection = function(heading, indent = 0) {
+	writeNewSection(heading, indent = 0) {
 		this.write('\n\n');
 		this.indent(indent);
 		this.write(`${this.commentPattern} ${heading}\n`);
@@ -98,7 +98,7 @@ class FileMaker {
 	 * @param {string}		path	- The path to save the file to
 	 * @param {function}	onError	- Callback for any errors encountered while saving the file
 	 */
-	saveTo = function(path, onError) {
+	saveTo(path, onError) {
 		fs.writeFile(path, this.toString(), function (err) {
 			if(err) {
 				if (typeof onError === 'function') {
