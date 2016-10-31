@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 class FileMaker {
 
@@ -111,4 +111,4 @@ class FileMaker {
 	}
 }
 
-export default FileMaker;
+module.exports = FileMaker;
