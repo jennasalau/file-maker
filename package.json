@@ -1,0 +1,27 @@
+{
+  "name": "file-maker",
+  "version": "1.0.0",
+  "description": "Utility for building physical files of any type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennasalau/file-maker.git"
+  },
+  "keywords": [
+    "file",
+    "fs",
+    "builder",
+    "maker",
+    "generator",
+    "make"
+  ],
+  "author": "Jenna Salau",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jennasalau/file-maker/issues"
+  },
+  "homepage": "https://github.com/jennasalau/file-maker#readme"
+}
