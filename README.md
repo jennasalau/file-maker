@@ -148,7 +148,7 @@ Saves the current buffer to a physical file.
 Example
 
 ```js
-myFile.toString('./my-file.txt');
+myFile.saveTo('./my-file.txt');
 ```
 
 ## LICENSE (BSD-3-Clause)
