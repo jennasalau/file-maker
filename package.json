@@ -1,6 +1,6 @@
 {
   "name": "file-maker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility for building physical files of any type",
   "main": "index.js",
   "scripts": {
