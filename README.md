@@ -44,7 +44,7 @@ myFile.saveTo('./MyFile.sh');
 or you can make a file with an existing string/file:
 
 ```js
-var myFile = new FileMaker('An exisitng string to start with!');
+var myFile = new FileMaker('An existing string to start with!');
 ```
 
 or
@@ -63,7 +63,7 @@ Sets a header for the output buffer.
 Example, set a tip at the top of the file
 
 ```js
-myFile.setHeader('// This file is auto generated. Changes will be banashed');
+myFile.setHeader('// This file is auto generated. Changes will be banished.');
 ```
 
 ### setFooter
